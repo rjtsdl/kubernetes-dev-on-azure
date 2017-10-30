@@ -79,7 +79,7 @@ sudo apt-get install -y build-essential
 4. Configure Docker to use the data disk
 
 ```
-mkdir /mnt/d/docker-pwd
+sudo mkdir /mnt/d/docker-pwd
 sudo mkdir /etc/systemd/system/docker.service.d 
 
 cat << EOF | sudo tee /etc/systemd/system/docker.service.d/graph.conf
